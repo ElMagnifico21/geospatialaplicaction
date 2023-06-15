@@ -1,3 +1,4 @@
+import folium
 #Buscamos la locacion a trabajar
 m = folium.Map( 
     location=[-33.45007060222928, -70.68234070663726], 
@@ -16,3 +17,4 @@ folium.Circle(
     fill = True,
     fill_color = "blue").add_to(m)
 m
+
